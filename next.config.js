@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    output: 'standalone', // Ensures Netlify builds the correct output
+    distDir: '.next',
+    output: 'export',
   }
   
   module.exports = nextConfig
