@@ -2,7 +2,7 @@
   NODE_VERSION = "22.14.0"
 
 [build]
-  command = "mkdir -p .next && npm run build"
+  command = "npm run build"
   publish = ".next"
 
 [[plugins]]
